@@ -1,9 +1,9 @@
-    <!DOCTYPE html>
-<html lang="ka">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>კონფიდენციალურობის პოლიტიკა - GearUp</title>
+    <title>Terms and Conditions & Privacy Policy - GearUp</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -12,10 +12,34 @@
             margin: 0 auto;
             padding: 20px;
             color: #333;
+            background: #f5f5f5;
         }
-        h1 { color: #2c3e50; }
-        h2 { color: #34495e; margin-top: 30px; }
-        .last-updated { color: #7f8c8d; font-style: italic; }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 { 
+            color: #34495e;
+            margin-top: 30px;
+            font-size: 1.4em;
+        }
+        h3 {
+            color: #546e7a;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        .last-updated { 
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
         .language-toggle {
             text-align: right;
             margin-bottom: 20px;
@@ -24,182 +48,378 @@
             background: #3498db;
             color: white;
             border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
+            padding: 10px 20px;
+            border-radius: 5px;
             cursor: pointer;
             margin-left: 10px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        .language-toggle button:hover {
+            background: #2980b9;
         }
         .language-toggle button.active {
             background: #2c3e50;
         }
         .content { display: none; }
         .content.active { display: block; }
+        .section {
+            margin-bottom: 25px;
+        }
+        .subsection {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .contact {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <div class="language-toggle">
-        <button onclick="switchLanguage('ka')" id="btn-ka" class="active">ქართული</button>
-        <button onclick="switchLanguage('en')" id="btn-en">English</button>
-    </div>
+    <div class="container">
+        <div class="language-toggle">
+            <button onclick="switchLanguage('en')" id="btn-en" class="active">English</button>
+            <button onclick="switchLanguage('ka')" id="btn-ka">ქართული</button>
+        </div>
 
-    <div id="content-ka" class="content active">
-        <h1>წესები და პირობები - GearUp</h1>
-        <p class="last-updated">ბოლო განახლება: 5 ოქტომბერი, 2025</p>
+        <div id="content-en" class="content active">
+            <h1>GearUp — Terms and Conditions & Privacy Policy</h1>
+            <p class="last-updated">Last Updated: October 13, 2025</p>
 
-        <pre style="white-space: pre-wrap; font-family: inherit; font-size: 14px; line-height: 1.6;">წესები და პირობები
+            <div class="section">
+                <h2>1. General Provisions</h2>
+                <div class="subsection">
+                    <p><strong>1.1.</strong> These Terms and Conditions ("Terms") govern the relationship between the administration of the GearUp service ("Administration", "we", "our") and the user ("User", "you").</p>
+                    <p><strong>1.2.</strong> By registering or using GearUp, you confirm that you have read, understood, and accepted these Terms.</p>
+                    <p><strong>1.3.</strong> If you disagree with any part of these Terms, you must stop using the Service.</p>
+                    <p><strong>1.4.</strong> The Administration reserves the right to modify or update the Terms at any time without prior notice. Updates become effective immediately upon publication.</p>
+                </div>
+            </div>
 
-1. ზოგადი დებულებები
-1.1. მოცემული წესები და პირობები („პირობები") წარმოადგენს საჯარო შეთავაზებას და არეგულირებს ურთიერთობას სერვისის („სერვისი") ადმინისტრაციასა და სერვისის მომხმარებელს („მომხმარებელი") შორის.
-1.2. სერვისის გამოყენებით, მომხმარებელი ადასტურებს, რომ სრულად გაეცნო პირობებს, აცნობიერებს მათ არსს და უპირობოდ ეთანხმება მათ.
-1.3. პირობების დაუკმაყოფილებლობის შემთხვევაში, მომხმარებელს ეკრძალება სერვისის გამოყენება და ადმინისტრაცია უფლებამოსილია შეზღუდოს ან დაბლოკოს მისი წვდომა სერვისზე.
+            <div class="section">
+                <h2>2. Purpose of the Service</h2>
+                <div class="subsection">
+                    <p><strong>2.1.</strong> GearUp is a digital platform designed for automotive enthusiasts to:</p>
+                    <ul>
+                        <li>Create personal profiles;</li>
+                        <li>Upload car information and performance results (e.g., 0–100 km/h, 100–200 km/h times);</li>
+                        <li>Participate in leaderboards;</li>
+                        <li>Create and join legal car-related events;</li>
+                        <li>Communicate through in-app chat;</li>
+                        <li>View and share verified performance data using devices such as Dragy or similar.</li>
+                    </ul>
+                    <p><strong>2.2.</strong> The Service's purpose is to promote car enthusiasm and performance data sharing within legal and safe limits.</p>
+                    <p><strong>2.3.</strong> The Service does not promote, encourage, or organize illegal street racing.</p>
+                    <p><strong>2.4.</strong> Users must conduct all activities safely and in compliance with Georgian traffic laws.</p>
+                </div>
+            </div>
 
-2. სერვისის დანიშნულება
-2.1. სერვისი უზრუნველყოფს ტექნიკურ შესაძლებლობას, რომ მომხმარებელს შეეძლოს:
-  2.1.1. დარეგისტრირება და პირადი პროფილის შექმნა;
-  2.1.2. ავტომობილის მონაცემებისა და ფოტოების ატვირთვა;
-  2.1.3. ტესტ-დრაივის შედეგების (მათ შორის 0-100 და 100-200 დრაგის მონაცემების) ატვირთვა;
-  2.1.4. ღონისძიებების ატვირთვა და მონაწილეობა მათში;
-  2.1.5. ლიდერბორდში მონაწილეობის მიღება;
-  2.1.6. შიდა ჩათის გამოყენება კომუნიკაციის მიზნით.
-2.2. სერვისი არ წარმოადგენს ინსტრუქტაჟს, მრჩევლობას, გზის უსაფრთხოების უზრუნველყოფას ან გარანტიას.
-2.3. სერვისი არ ემსახურება და არ უშვებს უკანონო ქუჩის რბოლების წახალისებას. მომხმარებელი ვალდებულია ნებისმიერი ტესტ-დრაივი განახორციელოს მხოლოდ კანონით ნებადართულ და უსაფრთხო პირობებში.
+            <div class="section">
+                <h2>3. User Responsibility</h2>
+                <div class="subsection">
+                    <p><strong>3.1.</strong> Users are fully responsible for their actions, uploads, and any consequences arising from their use of the Service.</p>
+                    <p><strong>3.2.</strong> The Administration is not liable for:</p>
+                    <ul>
+                        <li>Any damage, injury, or legal issue resulting from a user's driving or racing activity;</li>
+                        <li>Any violation of traffic or public safety laws;</li>
+                        <li>Any user-organized event that is not officially authorized.</li>
+                    </ul>
+                    <p><strong>3.3.</strong> Users agree that GearUp serves only as a technical platform, not an organizer, supervisor, or promoter of any event.</p>
+                </div>
+            </div>
 
-3. პასუხისმგებლობის შეზღუდვა
-3.1. ადმინისტრაცია არ არის პასუხისმგებელი მომხმარებლის მიერ განხორციელებულ ნებისმიერ ქმედებაზე, მათ შორის, მაგრამ არა მხოლოდ:
-  3.1.1. საგზაო შემთხვევებზე, ავარიებზე, ტრავმებზე ან ქონებრივი ზიანის მიყენებაზე;
-  3.1.2. სამართლებრივ დარღვევებზე, მათ შორის საგზაო წესების დარღვევასა და უკანონო რბოლებში მონაწილეობაზე.
-3.2. ადმინისტრაციის პასუხისმგებლობა შემოიფარგლება მხოლოდ სერვისის ტექნიკური ფუნქციონირების უზრუნველყოფით.
-3.3. მომხმარებელი იღებს სრულ პასუხისმგებლობას საკუთარი ქმედებებისა და მათი შედეგების მიმართ.
+            <div class="section">
+                <h2>4. Account Use and Obligations</h2>
+                <div class="subsection">
+                    <p><strong>4.1.</strong> Users must:</p>
+                    <ul>
+                        <li>Provide accurate and truthful registration data;</li>
+                        <li>Avoid uploading illegal, offensive, or unrelated content;</li>
+                        <li>Use the Service for lawful purposes only.</li>
+                    </ul>
+                    <p><strong>4.2.</strong> Users may not:</p>
+                    <ul>
+                        <li>Promote or advertise illegal racing or activities;</li>
+                        <li>Upload content that infringes on others' rights;</li>
+                        <li>Attempt to bypass system security or interfere with the Service.</li>
+                    </ul>
+                    <p><strong>4.3.</strong> The Service is intended for users aged 18 and older. Accounts created by minors without parental consent may be removed.</p>
+                </div>
+            </div>
 
-4. მომხმარებლის ვალდებულებები
-4.1. მომხმარებელი ვალდებულია:
-  4.1.1. რეგისტრაციისას მიაწოდოს ზუსტი და სანდო ინფორმაცია;
-  4.1.2. არ გამოიყენოს სერვისი უკანონო ან არაკანონიერი მიზნებისთვის;
-  4.1.3. არ ატვირთოს კონტენტი, რომელიც არღვევს მესამე პირის უფლებებს ან საქართველოს მოქმედ კანონმდებლობას;
-  4.1.4. არ ჩაერიოს სერვისის ნორმალურ ფუნქციონირებაში ან სხვა მომხმარებლების საქმიანობაში.
-4.2. მომხმარებელი ვალდებულია, რომ ნებისმიერი შედეგი, რომელიც წარმოშობილია სერვისის გამოყენებით, ეკისრება მხოლოდ მას და არა ადმინისტრაციას.
+            <div class="section">
+                <h2>5. Account Inactivity and Suspension</h2>
+                <div class="subsection">
+                    <p><strong>5.1.</strong> The Administration reserves the right to suspend or delete any account that appears inactive or suspicious.</p>
+                    <p><strong>5.2.</strong> Inactivity includes lack of uploads, reactions, messages, or other engagement for a prolonged period.</p>
+                    <p><strong>5.3.</strong> Before deletion, the User will be notified by email or in-app message 14 days in advance with a request to perform any activity to retain their account.</p>
+                    <p><strong>5.4.</strong> If no activity occurs within that period, the Administration may delete the account and related data permanently.</p>
+                    <p><strong>5.5.</strong> The Administration may immediately delete or block accounts suspected of fraudulent or harmful activity without notice.</p>
+                    <p><strong>5.6.</strong> No refunds or compensations are provided for account deletion under this clause.</p>
+                </div>
+            </div>
 
-5. აკრძალული ქმედებები
-5.1. სერვისში აკრძალულია:
-  5.1.1. ავტომობილის ყიდვა-გაყიდვის განცხადებების განთავსება ადმინისტრაციის წერილობითი თანხმობის გარეშე;
-  5.1.2. თემატიკასთან შეუსაბამო ან არასანქცირებული კონტენტის ატვირთვა;
-  5.1.3. ნებისმიერი უკანონო, თაღლითური, მავნე ან საზოგადოებისთვის საფრთხის შემცველი ქმედება.
-5.2. ადმინისტრაცია უფლებამოსილია, საკუთარი დისკრეციით და წინასწარი შეტყობინების გარეშე, დაბლოკოს ან წაშალოს მომხმარებლის ანგარიში.
-5.3. ანგარიშის დაბლოკვის შემთხვევაში, ადმინისტრაციას არ ეკისრება ვალდებულება ფინანსური ანაზღაურების გაცემის, გარდა იმ შემთხვევისა, როცა ეს პირდაპირ განსაზღვრულია კანონით ან Apple/Google-ის პოლიტიკებით.
+            <div class="section">
+                <h2>6. Payments and Subscriptions</h2>
+                <div class="subsection">
+                    <p><strong>6.1.</strong> All financial transactions are processed securely through TBC Bank or other licensed Georgian payment institutions.</p>
+                    <p><strong>6.2.</strong> The Administration does not store cardholder or payment details.</p>
+                    <p><strong>6.3.</strong> Subscriptions automatically renew unless canceled by the User before the renewal date.</p>
+                    <p><strong>6.4.</strong> Upon subscription expiration without renewal, the account may be deleted after 15 days.</p>
+                    <p><strong>6.5.</strong> Referral rewards, discounts, or bonuses are managed transparently through the payment system and are subject to Georgian tax regulations.</p>
+                    <p><strong>6.6.</strong> Refunds are handled according to TBC Bank policies and Georgian consumer law.</p>
+                </div>
+            </div>
 
-6. კონფიდენციალურობა და მონაცემთა დამუშავება
-6.1. ადმინისტრაცია ამუშავებს მომხმარებლის პერსონალურ მონაცემებს მხოლოდ სერვისის ფუნქციონირებისა და ადმინისტრაციასთან კომუნიკაციის მიზნით.
-6.2. ადმინისტრაცია არ გადასცემს, არ ასხვისებს და არ ყიდის მომხმარებლის მონაცემებს მესამე პირებზე სარეკლამო ან კომერციული მიზნებისთვის.
-6.3. ჩათის სისტემაში ატვირთული შეტყობინებები წაიშლება სამუდამოდ როგორც მომხმარებლის მხრიდან, ასევე სერვერებიდან, თუ მომხმარებელი ირჩევს მათი წაშლის ფუნქციას.
-6.4. ფინანსური ოპერაციებისას ინახება მხოლოდ აუცილებელი ქვითრები აღრიცხვისა და გამჭვირვალობის მიზნით. ბარათის ან გადახდის დეტალური მონაცემები არ ინახება.
+            <div class="section">
+                <h2>7. Data Processing and Privacy</h2>
+                <div class="subsection">
+                    <p><strong>7.1.</strong> The Administration collects and processes only minimal user data necessary to operate the Service, such as:</p>
+                    <ul>
+                        <li>Email, username, and profile data;</li>
+                        <li>Uploaded car data and event participation;</li>
+                        <li>Technical data (IP address, device type) for security.</li>
+                    </ul>
+                    <p><strong>7.2.</strong> The Administration does not sell, rent, or share personal data with third parties for advertising or commercial use.</p>
+                    <p><strong>7.3.</strong> Chats and uploaded content are automatically and permanently deleted when the User deletes them or upon account deletion.</p>
+                    <p><strong>7.4.</strong> Upon full account deletion, all user-related data is removed from the system within 30 days, except where Georgian law requires retention for tax or legal purposes.</p>
+                    <p><strong>7.5.</strong> The Service uses encryption and other security measures to protect user data.</p>
+                    <p><strong>7.6.</strong> By using GearUp, the User consents to data processing as described in this section.</p>
+                </div>
+            </div>
 
-7. გადახდები და გამოწერები
-7.1. სერვისში ყველა ფინანსური ოპერაცია ხორციელდება მხოლოდ საერთაშორისო გადახდის სანდო პლატფორმების მეშვეობით:
-  7.1.1. Apple Pay (iOS სისტემებზე);
-  7.1.2. Google Play Billing (Android სისტემებზე).
-7.2. ფინანსური ოპერაციები რეგულირდება Apple-ისა და Google-ის პირობებითა და წესებით.
-7.3. გამოწერის გაუქმება, თანხის დაბრუნება ან სხვა მოთხოვნები განიხილება უშუალოდ Apple-ისა და Google-ის მხარდაჭერის სისტემებში.
-7.4. ადმინისტრაცია არ არის პასუხისმგებელი გადახდის სისტემების მუშაობაზე, შეფერხებებსა ან მომხმარებლის მოთხოვნებზე, რომლებიც არ ეკუთვნის ადმინისტრაციის ტექნიკურ კომპეტენციას.
+            <div class="section">
+                <h2>8. Moderation and Content Management</h2>
+                <div class="subsection">
+                    <p><strong>8.1.</strong> The Administration may remove or hide content that violates these Terms, Georgian law, or community guidelines.</p>
+                    <p><strong>8.2.</strong> Users can report inappropriate content for review.</p>
+                    <p><strong>8.3.</strong> The Administration does not pre-screen all user uploads but responds promptly to any legal or rule-violating content.</p>
+                </div>
+            </div>
 
-8. ინტელექტუალური საკუთრება
-8.1. სერვისში არსებული პროგრამული უზრუნველყოფა, დიზაინი, ბრენდული ნიშნები და სხვა მასალები წარმოადგენს ადმინისტრაციის საკუთრებას ან გამოიყენება ლეგალური ლიცენზიით.
-8.2. მომხმარებელს ეკრძალება სერვისის ნაწილობრივი ან სრული კოპირება, გავრცელება, რედაქტირება ან კომერციული გამოყენება ადმინისტრაციის წერილობითი თანხმობის გარეშე.
+            <div class="section">
+                <h2>9. Intellectual Property</h2>
+                <div class="subsection">
+                    <p><strong>9.1.</strong> All software, design elements, trademarks, and related materials belong to the Administration or are used under a legal license.</p>
+                    <p><strong>9.2.</strong> Users may not copy, modify, distribute, or commercially exploit any part of the Service without written permission.</p>
+                </div>
+            </div>
 
-9. პასუხისმგებლობის სრული გამორიცხვა
-9.1. ადმინისტრაცია არ არის პასუხისმგებელი:
-  9.1.1. მესამე პირის ქმედებებზე;
-  9.1.2. მომხმარებლის მიერ ატვირთულ კონტენტზე;
-  9.1.3. შედეგებზე, რომლებიც წარმოიშვა სერვისის გამოყენების შედეგად.
-9.2. სერვისი წარმოადგენს მხოლოდ ტექნიკურ პლატფორმას და არ უზრუნველყოფს მომხმარებლის ქმედებების მონიტორინგს ან კონტროლს.
-9.3. მომხმარებელი ადასტურებს, რომ სერვისის გამოყენებით იღებს სრულ პასუხისმგებლობას საკუთარ ქმედებებზე და ადასტურებს, რომ ადმინისტრაცია გათავისუფლებულია ნებისმიერი სახის სამართლებრივი და ფინანსური ვალდებულებისგან, გარდა იმ შემთხვევისა, როდესაც პრობლემა გამოწვეულია უშუალოდ აპლიკაციის ტექნიკური ხარვეზით.
+            <div class="section">
+                <h2>10. Limitation of Liability</h2>
+                <div class="subsection">
+                    <p><strong>10.1.</strong> The Administration's liability is strictly limited to maintaining the technical functionality of the Service.</p>
+                    <p><strong>10.2.</strong> The Administration is not responsible for:</p>
+                    <ul>
+                        <li>Content uploaded by users;</li>
+                        <li>Third-party actions;</li>
+                        <li>Any damage, injury, or loss resulting from the use or misuse of the Service.</li>
+                    </ul>
+                    <p><strong>10.3.</strong> Users agree to release the Administration from all claims unless directly caused by proven technical negligence of the Service.</p>
+                </div>
+            </div>
 
-10. პირობების ცვლილება
-10.1. ადმინისტრაციას ეკუთვნის უფლება, ნებისმიერ დროს შეცვალოს ან განაახლოს პირობები წინასწარი გაფრთხილების გარეშე.
-10.2. ცვლილებები ძალაში შევა მათი გამოქვეყნებისთანავე სერვისში ან ადმინისტრაციის სხვა ოფიციალურ არხებზე.
+            <div class="section">
+                <h2>11. Dispute Resolution</h2>
+                <div class="subsection">
+                    <p><strong>11.1.</strong> Before applying to court, users agree to attempt to resolve disputes by contacting the Administration at <strong>support@gearup.ge</strong>.</p>
+                    <p><strong>11.2.</strong> The Administration will respond within 15 business days.</p>
+                    <p><strong>11.3.</strong> All disputes are governed by the laws of Georgia and handled by Georgian general courts.</p>
+                </div>
+            </div>
 
-11. საბოლოო დებულებები
-11.1. მოცემული პირობები რეგულირდება საქართველოს მოქმედი კანონმდებლობით.
-11.2. ნებისმიერი დავა ან სადავო საკითხი განიხილება საქართველოს საერთო სასამართლოების მიერ, კანონმდებლობით დადგენილი წესის შესაბამისად.</pre>
-    </div>
+            <div class="section">
+                <h2>12. Final Provisions</h2>
+                <div class="subsection">
+                    <p><strong>12.1.</strong> The Administration reserves the right to update or modify the Service and Terms at any time.</p>
+                    <p><strong>12.2.</strong> Continued use of the Service after updates means acceptance of the new Terms.</p>
+                    <p><strong>12.3.</strong> These Terms constitute the full agreement between the User and the Administration.</p>
+                    <p><strong>12.4.</strong> © 2025 GearUp. All rights reserved.</p>
+                </div>
+            </div>
 
-    <div id="content-en" class="content">
-        <h1>Terms and Conditions - ABA DAMIDEQI</h1>
-        <p class="last-updated">Last updated: October 5, 2025</p>
+            <div class="contact">
+                <strong>Contact Information:</strong><br>
+                Email: support@gearup.ge
+            </div>
+        </div>
 
-        <pre style="white-space: pre-wrap; font-family: inherit; font-size: 14px; line-height: 1.6;">Terms and Conditions
+        <div id="content-ka" class="content">
+            <h1>GearUp — წესები და პირობები & კონფიდენციალურობის პოლიტიკა</h1>
+            <p class="last-updated">ბოლო განახლება: 13 ოქტომბერი, 2025</p>
 
-1. General Provisions
-1.1. These Terms and Conditions ("Terms") constitute a public offer and regulate the relationship between the Service administration ("Service") and the Service user ("User").
-1.2. By using the Service, the User confirms that they have fully read the Terms, understand their essence, and unconditionally agree to them.
-1.3. In case of non-compliance with the Terms, the User is prohibited from using the Service, and the Administration is authorized to restrict or block their access to the Service.
+            <div class="section">
+                <h2>1. ზოგადი დებულებები</h2>
+                <div class="subsection">
+                    <p><strong>1.1.</strong> მოცემული წესები და პირობები („პირობები") არეგულირებს ურთიერთობას GearUp სერვისის ადმინისტრაციასა („ადმინისტრაცია", „ჩვენ", „ჩვენი") და მომხმარებელს („მომხმარებელი", „თქვენ") შორის.</p>
+                    <p><strong>1.2.</strong> GearUp-ში რეგისტრაციით ან გამოყენებით, თქვენ ადასტურებთ, რომ წაიკითხეთ, გააცნობიერეთ და მიიღეთ ეს პირობები.</p>
+                    <p><strong>1.3.</strong> თუ არ ეთანხმებით პირობების რომელიმე ნაწილს, თქვენ უნდა შეწყვიტოთ სერვისის გამოყენება.</p>
+                    <p><strong>1.4.</strong> ადმინისტრაცია იტოვებს უფლებას წინასწარი შეტყობინების გარეშე ნებისმიერ დროს შეცვალოს ან განაახლოს პირობები. განახლებები ძალაში შედის მათი გამოქვეყნებისთანავე.</p>
+                </div>
+            </div>
 
-2. Purpose of the Service
-2.1. The Service provides technical capabilities for the User to:
-  2.1.1. Register and create a personal profile;
-  2.1.2. Upload car data and photos;
-  2.1.3. Upload test drive results (including 0-100 and 100-200 drag data);
-  2.1.4. Upload events and participate in them;
-  2.1.5. Participate in the leaderboard;
-  2.1.6. Use internal chat for communication purposes.
-2.2. The Service does not constitute instruction, advice, road safety assurance, or guarantee.
-2.3. The Service does not serve and does not allow illegal street racing. The User is obliged to conduct any test drive only in legally permitted and safe conditions.
+            <div class="section">
+                <h2>2. სერვისის დანიშნულება</h2>
+                <div class="subsection">
+                    <p><strong>2.1.</strong> GearUp არის ციფრული პლატფორმა, შექმნილი ავტომობილის მოყვარულებისთვის, რომ:</p>
+                    <ul>
+                        <li>შექმნან პირადი პროფილები;</li>
+                        <li>ატვირთონ ავტომობილის ინფორმაცია და მუშაობის შედეგები (მაგ., 0–100 კმ/სთ, 100–200 კმ/სთ დრო);</li>
+                        <li>მიიღონ მონაწილეობა ლიდერბორდებში;</li>
+                        <li>შექმნან და შეუერთდნენ ლეგალურ ავტომობილებთან დაკავშირებულ ღონისძიებებს;</li>
+                        <li>გამოიყენონ აპლიკაციაში ჩაშენებული ჩეთი კომუნიკაციისთვის;</li>
+                        <li>იხილონ და გააზიარონ დადასტურებული მუშაობის მონაცემები Dragy-ს ან მსგავსი მოწყობილობების გამოყენებით.</li>
+                    </ul>
+                    <p><strong>2.2.</strong> სერვისის მიზანია ხელი შეუწყოს ავტომობილებისადმი ენთუზიაზმს და მუშაობის მონაცემების გაზიარებას ლეგალურ და უსაფრთხო ფარგლებში.</p>
+                    <p><strong>2.3.</strong> სერვისი არ უწყობს ხელს, არ წახალისებს და არ აწყობს უკანონო ქუჩის რბოლებს.</p>
+                    <p><strong>2.4.</strong> მომხმარებლები უნდა ახორციელებდნენ ყველა აქტივობას უსაფრთხოდ და საქართველოს საგზაო კანონების შესაბამისად.</p>
+                </div>
+            </div>
 
-3. Limitation of Liability
-3.1. The Administration is not responsible for any actions taken by the User, including but not limited to:
-  3.1.1. Road accidents, crashes, injuries, or property damage;
-  3.1.2. Legal violations, including traffic violations and participation in illegal races.
-3.2. The Administration's liability is limited solely to ensuring the technical functioning of the Service.
-3.3. The User assumes full responsibility for their actions and their consequences.
+            <div class="section">
+                <h2>3. მომხმარებლის პასუხისმგებლობა</h2>
+                <div class="subsection">
+                    <p><strong>3.1.</strong> მომხმარებლები სრულად არიან პასუხისმგებელი თავიანთ ქმედებებზე, ატვირთვებზე და სერვისის გამოყენებით გამოწვეულ ნებისმიერ შედეგზე.</p>
+                    <p><strong>3.2.</strong> ადმინისტრაცია არ არის პასუხისმგებელი:</p>
+                    <ul>
+                        <li>მომხმარებლის მართვის ან რბოლის აქტივობის შედეგად მიყენებულ ნებისმიერ ზიანზე, დაზიანებაზე ან იურიდიულ საკითხზე;</li>
+                        <li>საგზაო ან საზოგადოებრივი უსაფრთხოების კანონების დარღვევაზე;</li>
+                        <li>მომხმარებლის მიერ ორგანიზებულ ღონისძიებაზე, რომელიც ოფიციალურად არ არის ავტორიზებული.</li>
+                    </ul>
+                    <p><strong>3.3.</strong> მომხმარებლები ეთანხმებიან, რომ GearUp მოქმედებს მხოლოდ როგორც ტექნიკური პლატფორმა, და არა ორგანიზატორი, ზედამხედველი ან პრომოუტერი რომელიმე ღონისძიებისა.</p>
+                </div>
+            </div>
 
-4. User Obligations
-4.1. The User is obliged to:
-  4.1.1. Provide accurate and reliable information during registration;
-  4.1.2. Not use the Service for illegal or unlawful purposes;
-  4.1.3. Not upload content that violates third-party rights or Georgian legislation;
-  4.1.4. Not interfere with the normal functioning of the Service or other users' activities.
-4.2. The User is obliged to bear sole responsibility for any results arising from the use of the Service, not the Administration.
+            <div class="section">
+                <h2>4. ანგარიშის გამოყენება და ვალდებულებები</h2>
+                <div class="subsection">
+                    <p><strong>4.1.</strong> მომხმარებლები უნდა:</p>
+                    <ul>
+                        <li>მიაწოდონ ზუსტი და სანდო სარეგისტრაციო მონაცემები;</li>
+                        <li>თავი შეიკავონ უკანონო, შეურაცხმყოფელი ან შეუსაბამო კონტენტის ატვირთვისგან;</li>
+                        <li>გამოიყენონ სერვისი მხოლოდ კანონიერი მიზნებისთვის.</li>
+                    </ul>
+                    <p><strong>4.2.</strong> მომხმარებლებს არ შეუძლიათ:</p>
+                    <ul>
+                        <li>უკანონო რბოლების ან აქტივობების პოპულარიზაცია ან რეკლამა;</li>
+                        <li>სხვისი უფლებების დარღვევის კონტენტის ატვირთვა;</li>
+                        <li>სისტემის უსაფრთხოების გვერდის ავლის მცდელობა ან სერვისის ხელის შეშლა.</li>
+                    </ul>
+                    <p><strong>4.3.</strong> სერვისი განკუთვნილია 18 წლისა და უფროსი ასაკის მომხმარებლებისთვის. არასრულწლოვნების მიერ მშობლის თანხმობის გარეშე შექმნილი ანგარიშები შეიძლება წაიშალოს.</p>
+                </div>
+            </div>
 
-5. Prohibited Actions
-5.1. The following are prohibited in the Service:
-  5.1.1. Posting car sale advertisements without the Administration's written consent;
-  5.1.2. Uploading content unrelated to the theme or unauthorized;
-  5.1.3. Any illegal, fraudulent, harmful, or dangerous actions to society.
-5.2. The Administration is authorized, at its own discretion and without prior notice, to block or delete a User's account.
-5.3. In case of account blocking, the Administration is not obliged to provide financial compensation, except when directly specified by law or Apple/Google policies.
+            <div class="section">
+                <h2>5. ანგარიშის არააქტიურობა და შეჩერება</h2>
+                <div class="subsection">
+                    <p><strong>5.1.</strong> ადმინისტრაცია იტოვებს უფლებას შეაჩეროს ან წაშალოს ნებისმიერი ანგარიში, რომელიც ჩანს არააქტიური ან საეჭვო.</p>
+                    <p><strong>5.2.</strong> არააქტიურობა მოიცავს ატვირთვების, რეაქციების, შეტყობინებების ან სხვა ჩართულობის არარსებობას ხანგრძლივი პერიოდის განმავლობაში.</p>
+                    <p><strong>5.3.</strong> წაშლამდე, მომხმარებელი შეტყობინებას მიიღებს ელფოსტით ან აპლიკაციაში შეტყობინებით 14 დღით ადრე თხოვნით, შეასრულოს ნებისმიერი აქტივობა ანგარიშის შესანარჩუნებლად.</p>
+                    <p><strong>5.4.</strong> თუ ამ პერიოდში არანაირი აქტივობა არ მოხდება, ადმინისტრაციას შეუძლია სამუდამოდ წაშალოს ანგარიში და დაკავშირებული მონაცემები.</p>
+                    <p><strong>5.5.</strong> ადმინისტრაციას შეუძლია შეტყობინების გარეშე დაუყოვნებლივ წაშალოს ან დაბლოკოს ანგარიშები, რომლებიც ეჭვმიტანილნი არიან თაღლითურ ან მავნე აქტივობაში.</p>
+                    <p><strong>5.6.</strong> ანგარიშის წაშლის შემთხვევაში ამ პუნქტის მიხედვით არ მოხდება თანხის დაბრუნება ან კომპენსაცია.</p>
+                </div>
+            </div>
 
-6. Confidentiality and Data Processing
-6.1. The Administration processes User personal data solely for the Service's functioning and communication with the Administration.
-6.2. The Administration does not transfer, alienate, or sell User data to third parties for advertising or commercial purposes.
-6.3. Messages uploaded to the chat system are permanently deleted both from the User's side and from servers if the User chooses the deletion function.
-6.4. During financial operations, only necessary receipts are stored for accounting and transparency purposes. Card or payment detailed data is not stored.
+            <div class="section">
+                <h2>6. გადახდები და გამოწერები</h2>
+                <div class="subsection">
+                    <p><strong>6.1.</strong> ყველა ფინანსური ტრანზაქცია უსაფრთხოდ მუშავდება TBC ბანკის ან სხვა ლიცენზირებული ქართული საგადახდო დაწესებულებების მეშვეობით.</p>
+                    <p><strong>6.2.</strong> ადმინისტრაცია არ ინახავს ბარათის მფლობელის ან გადახდის დეტალებს.</p>
+                    <p><strong>6.3.</strong> გამოწერები ავტომატურად განახლდება, თუ მომხმარებელი არ გააუქმებს მას განახლების თარიღამდე.</p>
+                    <p><strong>6.4.</strong> გამოწერის ვადის გასვლისას განახლების გარეშე, ანგარიში შეიძლება წაიშალოს 15 დღის შემდეგ.</p>
+                    <p><strong>6.5.</strong> რეფერალური ჯილდოები, ფასდაკლებები ან ბონუსები მართულია გამჭვირვალედ საგადახდო სისტემის მეშვეობით და ექვემდებარება საქართველოს საგადასახადო რეგულაციებს.</p>
+                    <p><strong>6.6.</strong> თანხის დაბრუნება ხდება TBC ბანკის პოლიტიკისა და საქართველოს მომხმარებელთა კანონის შესაბამისად.</p>
+                </div>
+            </div>
 
-7. Payments and Subscriptions
-7.1. All financial operations in the Service are carried out only through trusted international payment platforms:
-  7.1.1. Apple Pay (on iOS systems);
-  7.1.2. Google Play Billing (on Android systems).
-7.2. Financial operations are regulated by Apple and Google's terms and conditions.
-7.3. Subscription cancellation, refund, or other requests are handled directly in Apple and Google support systems.
-7.4. The Administration is not responsible for payment system operation, delays, or User requests that do not fall under the Administration's technical competence.
+            <div class="section">
+                <h2>7. მონაცემთა დამუშავება და კონფიდენციალურობა</h2>
+                <div class="subsection">
+                    <p><strong>7.1.</strong> ადმინისტრაცია აგროვებს და ამუშავებს მხოლოდ მინიმალურ მომხმარებლის მონაცემებს, რომლებიც აუცილებელია სერვისის ფუნქციონირებისთვის, როგორიცაა:</p>
+                    <ul>
+                        <li>ელფოსტა, მომხმარებლის სახელი და პროფილის მონაცემები;</li>
+                        <li>ატვირთული ავტომობილის მონაცემები და ღონისძიებაში მონაწილეობა;</li>
+                        <li>ტექნიკური მონაცემები (IP მისამართი, მოწყობილობის ტიპი) უსაფრთხოებისთვის.</li>
+                    </ul>
+                    <p><strong>7.2.</strong> ადმინისტრაცია არ ყიდის, არ აქირავებს და არ უზიარებს პერსონალურ მონაცემებს მესამე მხარეებს სარეკლამო ან კომერციული გამოყენებისთვის.</p>
+                    <p><strong>7.3.</strong> ჩეთები და ატვირთული კონტენტი ავტომატურად და სამუდამოდ იშლება, როდესაც მომხმარებელი აშლის მათ ან ანგარიშის წაშლისას.</p>
+                    <p><strong>7.4.</strong> ანგარიშის სრული წაშლისას, მომხმარებელთან დაკავშირებული ყველა მონაცემი წაიშლება სისტემიდან 30 დღის განმავლობაში, გარდა იმ შემთხვევისა, როდესაც საქართველოს კანონი მოითხოვს შენახვას საგადასახადო ან იურიდიული მიზნებისთვის.</p>
+                    <p><strong>7.5.</strong> სერვისი იყენებს დაშიფვრას და სხვა უსაფრთხოების ზომებს მომხმარებლის მონაცემების დასაცავად.</p>
+                    <p><strong>7.6.</strong> GearUp-ის გამოყენებით, მომხმარებელი ეთანხმება მონაცემთა დამუშავებას, როგორც აღწერილია ამ განყოფილებაში.</p>
+                </div>
+            </div>
 
-8. Intellectual Property
-8.1. Software, design, brand marks, and other materials in the Service are the property of the Administration or used under legal license.
-8.2. The User is prohibited from partial or full copying, distribution, editing, or commercial use of the Service without the Administration's written consent.
+            <div class="section">
+                <h2>8. მოდერაცია და კონტენტის მართვა</h2>
+                <div class="subsection">
+                    <p><strong>8.1.</strong> ადმინისტრაციას შეუძლია წაშალოს ან დამალოს კონტენტი, რომელიც არღვევს ამ პირობებს, საქართველოს კანონს ან საზოგადოების გაიდლაინებს.</p>
+                    <p><strong>8.2.</strong> მომხმარებლებს შეუძლიათ შეატყობინონ შეუსაბამო კონტენტის შესახებ განხილვისთვის.</p>
+                    <p><strong>8.3.</strong> ადმინისტრაცია არ ამოწმებს წინასწარ ყველა მომხმარებლის ატვირთვას, მაგრამ სწრაფად რეაგირებს ნებისმიერ კანონის ან წესების დამრღვევ კონტენტზე.</p>
+                </div>
+            </div>
 
-9. Complete Exclusion of Liability
-9.1. The Administration is not responsible for:
-  9.1.1. Third-party actions;
-  9.1.2. Content uploaded by the User;
-  9.1.3. Results arising from the use of the Service.
-9.2. The Service is only a technical platform and does not provide monitoring or control of User actions.
-9.3. The User confirms that by using the Service, they assume full responsibility for their actions and confirms that the Administration is released from any legal and financial obligations, except when the problem is caused directly by a technical defect in the application.
+            <div class="section">
+                <h2>9. ინტელექტუალური საკუთრება</h2>
+                <div class="subsection">
+                    <p><strong>9.1.</strong> ყველა პროგრამული უზრუნველყოფა, დიზაინის ელემენტები, სავაჭრო ნიშნები და დაკავშირებული მასალები ეკუთვნის ადმინისტრაციას ან გამოიყენება იურიდიული ლიცენზიით.</p>
+                    <p><strong>9.2.</strong> მომხმარებლებს არ შეუძლიათ კოპირება, შეცვლა, გავრცელება ან კომერციული გამოყენება სერვისის რომელიმე ნაწილის წერილობითი ნებართვის გარეშე.</p>
+                </div>
+            </div>
 
-10. Changes to Terms
-10.1. The Administration has the right to change or update the Terms at any time without prior notice.
-10.2. Changes take effect immediately upon publication in the Service or other official Administration channels.
+            <div class="section">
+                <h2>10. პასუხისმგებლობის შეზღუდვა</h2>
+                <div class="subsection">
+                    <p><strong>10.1.</strong> ადმინისტრაციის პასუხისმგებლობა მკაცრად შემოფარგლულია სერვისის ტექნიკური ფუნქციონირების შენარჩუნებით.</p>
+                    <p><strong>10.2.</strong> ადმინისტრაცია არ არის პასუხისმგებელი:</p>
+                    <ul>
+                        <li>მომხმარებლების მიერ ატვირთულ კონტენტზე;</li>
+                        <li>მესამე მხარის ქმედებებზე;</li>
+                        <li>სერვისის გამოყენებით ან არასწორი გამოყენებით გამოწვეულ ნებისმიერ ზიანზე, დაზიანებაზე ან დანაკარგზე.</li>
+                    </ul>
+                    <p><strong>10.3.</strong> მომხმარებლები ეთანხმებიან ადმინისტრაციის გათავისუფლებას ყველა პრეტენზიისგან, თუ ეს პირდაპირ გამოწვეული არ არის სერვისის დადასტურებული ტექნიკური გაუფრთხილებლობით.</p>
+                </div>
+            </div>
 
-11. Final Provisions
-11.1. These Terms are governed by the current legislation of Georgia.
-11.2. Any dispute or contentious issue is considered by Georgian general courts, in accordance with the procedure established by law.</pre>
+            <div class="section">
+                <h2>11. დავების გადაწყვეტა</h2>
+                <div class="subsection">
+                    <p><strong>11.1.</strong> სასამართლოში მიმართვამდე, მომხმარებლები ეთანხმებიან სცადონ დავების გადაწყვეტა ადმინისტრაციასთან დაკავშირებით მისამართზე <strong>support@gearup.ge</strong>.</p>
+                    <p><strong>11.2.</strong> ადმინისტრაცია უპასუხებს 15 სამუშაო დღის განმავლობაში.</p>
+                    <p><strong>11.3.</strong> ყველა დავა რეგულირდება საქართველოს კანონებით და განიხილება საქართველოს საერთო სასამართლოების მიერ.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>12. საბოლოო დებულებები</h2>
+                <div class="subsection">
+                    <p><strong>12.1.</strong> ადმინისტრაცია იტოვებს უფლებას ნებისმიერ დროს განაახლოს ან შეცვალოს სერვისი და პირობები.</p>
+                    <p><strong>12.2.</strong> სერვისის გამოყენების გაგრძელება განახლებების შემდეგ ნიშნავს ახალი პირობების მიღებას.</p>
+                    <p><strong>12.3.</strong> ეს პირობები წარმოადგენს სრულ შეთანხმებას მომხმარებელსა და ადმინისტრაციას შორის.</p>
+                    <p><strong>12.4.</strong> © 2025 GearUp. ყველა უფლება დაცულია.</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <strong>საკონტაქტო ინფორმაცია:</strong><br>
+                ელფოსტა: support@gearup.ge
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2025 GearUp. All rights reserved.
+        </div>
     </div>
 
     <script>
@@ -211,10 +431,5 @@
             document.getElementById('btn-' + lang).classList.add('active');
         }
     </script>
-
-    <hr style="margin-top: 40px; border: none; border-top: 1px solid #eee;">
-    <p style="text-align: center; color: #7f8c8d; font-size: 14px;">
-        © 2025 GearUp. All rights reserved.
-    </p>
 </body>
 </html>
